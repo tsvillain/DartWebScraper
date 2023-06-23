@@ -6,6 +6,7 @@ class Links {
     this.title,
   });
 
+
   Links.fromMap(Map<String, dynamic> map) {
     title = map['title'];
     link = map['link'];
